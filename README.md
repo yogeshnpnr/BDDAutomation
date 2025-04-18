@@ -1,4 +1,7 @@
 flipkart-bdd-appium/
+
+
+
 ├── src/
 │   ├── main/
 │   └── test/
@@ -16,4 +19,17 @@ flipkart-bdd-appium/
 │               └── Flipkart.feature
 ├── env.json
 ├── pom.xml
-# BDDAutomation
+# 
+
+
+
+How to Run:
+Start Appium server:
+
+
+appium --use-plugins=element-wait --allow-cors
+
+Run with Maven:
+
+
+mvn test
